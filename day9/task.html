@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout with Images</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .section {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px; 
+        }
+        img {
+            max-width: 50px;
+            margin-right: 10px;
+            height:60px;
+        }
+        .section h3 {
+            margin: 0;
+        }
+        .section p {
+            margin: 5px 0;
+        }
+        .stars {
+            color: #6ddd70;
+            font-size: 1.2em;
+        }
+
+        a {
+            color: #1E90FF;
+            text-decoration: none;
+        }
+        .footer{
+        display: flex;
+        justify-content: space-between;
+        margin-right:0px;
+        margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="section-header">
+                <img src="https://cdn.prod.website-files.com/635637c5d13ee9bd2b5feb65/635a6521e448c975009bae34_6357d2186e13e5f26c16d622_stripe_logo_icon_167962.png" alt="Stripe Logo">
+                <div>
+                    <h3>Stripe</h3>
+                    <p>Payment Services</p>
+                    <p class="stars">
+                        &starf;
+                        &bigstar;
+                        &starf;
+                        &bigstar;
+                        &star;
+                        </p>
+                </div>
+            </div>
+            <p>Get more context on your users with stripe data inside our platform.</p>
+            <div class="footer">Installed 172 times
+                <a href="#">View &gt;</a></div>
+            
+        </div>
+        <div class="section">
+            <div class="section-header">
+                <img src="https://techcrunch.com/wp-content/uploads/2020/09/Screenshot-2020-09-22-080330.jpg" alt="Mailchimp Logo">
+                <div>
+                    <h3>Mailchimp</h3>
+                    <p>Project Management</p>
+                    <p class="stars"> &starf;
+                        &bigstar;
+                        &starf;
+                        &bigstar;
+                        &star;</p>
+                </div>
+            </div>
+            <p>Capture and sync subscribers from your mailchimp platform to ours with ease.</p>
+            <div class="footer">Installed 172 times
+                <a href="#">View &gt;</a></div>
+        </div>
+        <div class="section">
+            <div class="section-header">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/82/dc/5082dce8-31b9-dcf4-527f-9804b6ceaa80/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/246x0w.webp" alt="Dropbox Logo">
+                <div>
+                    <h3>Dropbox</h3>
+                    <p>File Management</p>
+                    <p class="stars"> &starf;
+                        &bigstar;
+                        &starf;
+                        &bigstar;
+                        &star;</p>
+                </div>
+            </div>
+            <p>Use dropbox to sync your photos to our platform and share it with others.</p>
+            <div class="footer">Installed 172 times
+                <a href="#">View &gt;</a></div>
+        </div>
+        <div class="section">
+            <div class="section-header">
+                <img src="https://bitnetinfotech.com/wp-content/uploads/2022/07/s-1.png" alt="Shopify Logo">
+                <div>
+                    <h3>Shopify</h3>
+                    <p>Ecommerce</p>
+                    <p class="stars"> &starf;
+                        &bigstar;
+                        &starf;
+                        &bigstar;
+                        &star;</p>
+                </div>
+            </div>
+            <p>Sell your items with ease with having any website with our free platform.</p>
+            <div class="footer">Installed 172 times
+                <a href="#">View &gt;</a></div>
+        </div>
+        <div class="section">
+            <div class="section-header">
+                <img src="https://yt3.googleusercontent.com/ytc/AIdro_kEXeWaO0l5zAGOQo9a4KQT6F389YphCWSipxTXvj2mV_U=s160-c-k-c0x00ffffff-no-rj" alt="Atlassian Logo">
+                <div>
+                    <h3>Atlassian</h3>
+                    <p>Project management</p>
+                    <p class="stars">★★★★☆</p>
+                </div>
+            </div>
+            <p>Developing products for developers, project managers, and architects.</p>
+            <div class="footer">Installed 172 times
+                <a href="#">View &gt;</a></div>
+        </div>
+        <div class="section">
+            <div class="section-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/1280px-Salesforce.com_logo.svg.png" alt="Salesforce Logo">
+                <div>
+                    <h3>Salesforce</h3>
+                    <p>Project management</p>
+                    <p class="stars"> &starf;
+                        &bigstar;
+                        &starf;
+                        &bigstar;
+                        &star;</p>
+                </div>
+            </div>
+            <p>Developing products for developers, project managers, and architects.</p>
+            <div class="footer">Installed 172 times
+                <a href="#">View &gt;</a></div>
+        </div>
+    </div>
+</body>
